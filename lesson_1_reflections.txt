@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+    My Reflection:
+    I found that using diff (or fc in linux) helped me compare the two files by allowing me to see what the differences 
+    were between the two files immediately and within context of each other.
+    I was able to tell right away where a typo was because the program showed me the changed lines 
+    with the original line right next to it for comparison.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+    My Reflection:
+    Having easy access to the entire history of a file would make me a more efficient programmer by allowing me to
+    immediately see changes within the files, and restore to a previous version if I was unhappy with changes I made.
+    By having access to all of these in one area I could quickly restore a broken program to a working point.
+    I could also see if/what I did wrong.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git,
+vs having versions automatically saved, like Google Docs does?
+    My Reflection:
+    I think that having to manually commit rather than having auto commits for code is more useful for a programming
+    environment; however, for things like writing memos, excel spreadsheets, and non-programming related work, having 
+    auto-save versions may be ultimately more useful.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit,
+while others, like Google Docs, treat each file separately?
+    My Reflection:
+    I think that Git allows multiple files to be saved during a commit because sometimes those files are intertwined 
+    and may have related alterations performed on them in the same work-period. Most other commercial version control
+    systems are likely geared at users that are not making changes to several inter-related files at once.  
+    It also may not be as economically feasible for some of these cloud based commercial version control systems to
+    track multi-file commits in the way Git does.
+
+How can you use the commands git log and git diff to view the history of files?
+    My Reflection:
+    You can use git log to see the notes and commit times for each commit you can then compare two different 
+    commits using git diff and see what changes happened between those two commits.
+
+How might using version control make you more confident to make changes that could break something?
+    My Reflection:
+    I don't really need to say much here.  I have had programs with many different copies of the program in a directory
+    it was a nightmare reverting back when I introduced a bug.  I was constantly zipping and unzipping files, it was
+    awful. With an advanced VCS like Git I would feel much better about making changes.
