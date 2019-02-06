@@ -21,14 +21,15 @@ use one instead of another?
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
-
-    Fill in your answer here
+    My Reflection: the benefit is so that you can access the remote commit locally, and also allows for you to make your 
+    merges locally and deal with conflicts locally before committing and pushing back up to the server.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
-
-    Fill in your answer here
-
+    My Reflection:  I have collaborated before using an arcane series of zip files, FTP servers, dropbox and Citrix, 
+    it was a nightmare!  I hated it.  I think for anything larger than 30 minutes of code writing I will be 
+    using Git and Github!
+    
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
