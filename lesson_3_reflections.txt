@@ -32,5 +32,7 @@ and what would be harder?
     
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
-
-    Fill in your answer here
+    My Reflection:  I would do this when I'm working as a team and we run the risk of potentially interacting with the 
+    and/or changing the same areas of code. I would also do this when I am alone and building new features that I'm 
+    uncertain about and am working on it from different locations, or if I want to think about them or have 
+    someone else review them before I go into full implementation.
